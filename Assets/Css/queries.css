@@ -1,0 +1,827 @@
+@media (max-width: 1300px) {
+
+  /*******************************/
+  /* Navbar Section */
+  /*******************************/
+
+  nav {
+    padding: 8px 50px;
+  }
+}
+
+
+@media (max-width: 1200px) {
+
+  /*******************************/
+  /* Navbar Section */
+  /*******************************/
+
+  nav {
+    padding: 8px 50px;
+
+    .navbar-holder {
+      .left-items {
+        .heading-holder {
+          #Lap-Heading {
+            font-size: 18px;
+          }
+        }
+      }
+
+      .right-items {
+        & ul {
+          gap: 30px;
+        }
+      }
+    }
+  }
+
+  /*******************************/
+  /* Gallery Section */
+  /*******************************/
+
+  #Gallery {
+    .image-holder {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  /*******************************/
+  /* About Us Section */
+  /*******************************/
+
+  #Aboutus {
+    padding: 100px 48px 0 48px;
+
+    .aboutus-holder {
+      -ms-grid-columns: 400px 48px 1fr;
+      grid-template-columns: 400px 1fr;
+      gap: 48px;
+    }
+  }
+
+  /*******************************/
+  /* Reach Us Section */
+  /*******************************/
+
+  #Reach-Us {
+    .reachus-Holder {
+
+
+      .left {
+        padding: 32px;
+      }
+
+      .right {
+        width: 88rem;
+        height: 100%;
+      }
+    }
+
+  }
+}
+
+
+@media (max-width: 1050px) {
+
+  /*******************************/
+  /* Navbar Section */
+  /*******************************/
+
+  nav {
+    padding: 8px 48px;
+
+    .navbar-holder {
+      .left-items {
+        .heading-holder {
+          #Lap-Heading {
+            font-size: 16px;
+          }
+        }
+      }
+
+      .right-items {
+        & ul {
+          gap: 24px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+
+  /*******************************/
+  /* About Us Section */
+  /*******************************/
+
+  #Aboutus {
+    padding: 100px 48px 0 48px;
+
+    .aboutus-holder {
+      -ms-grid-columns: 350px 32px 1fr;
+      grid-template-columns: 350px 1fr;
+      gap: 32px;
+
+      .image-holder {
+
+        .logo {
+
+          & img {
+            width: 350px;
+            height: 350px;
+          }
+        }
+      }
+
+      .Heading {
+        font-size: 44px;
+        font-weight: 700;
+      }
+
+      .desc-holder {
+        font-size: 12px;
+        /* font-weight: var(--medium); */
+      }
+    }
+  }
+
+  /*******************************/
+  /* PUJO Section */
+  /*******************************/
+
+  #Pujo {
+    .pujo-holder {
+
+      .heading-holder {
+        .heading {
+          font-size: 44px;
+        }
+      }
+    }
+  }
+
+  /*******************************/
+  /* Gallery Section */
+  /*******************************/
+
+  #Gallery {
+    .image-holder {
+      .image {
+        .year {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+  /*******************************/
+  /* Reach Us Section */
+  /*******************************/
+
+  #Reach-Us {
+    padding: 150px 50px;
+  }
+}
+
+@media (max-width: 950px) {
+
+  /*******************************/
+  /* Navbar Section */
+  /*******************************/
+
+  nav {
+    .navbar-holder {
+
+      .left-items {
+        .heading-holder {
+          #Lap-Heading {
+            font-size: 20px;
+          }
+        }
+      }
+
+      .right-items {
+        i {
+          display: block;
+          color: var(--white);
+        }
+
+        .open {
+          right: 0;
+        }
+
+        & ul {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          position: fixed;
+          top: 70px;
+          right: -300px;
+          height: 100%;
+          width: 250px;
+          padding: 48px;
+          background: var(--red-lineargradiant);
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+          flex-direction: column;
+          -webkit-transition: right var(--transition-5);
+          -o-transition: right var(--transition-5);
+          transition: right var(--transition-5);
+          gap: 48px;
+        }
+      }
+    }
+  }
+
+  /*******************************/
+  /* About Section */
+  /*******************************/
+
+  #Aboutus {
+    padding: 100px 48px 0 48px;
+    -o-object-position: top;
+    object-position: top;
+    background-position: top;
+
+    .aboutus-holder {
+      -ms-grid-columns: none;
+      grid-template-columns: none;
+      -ms-grid-rows: 450px 32px 1fr;
+      grid-template-rows: 450px 1fr;
+      gap: 32px;
+
+      .image-holder {
+
+        .logo {
+
+          & img {
+            width: inherit;
+            height: 100%;
+          }
+        }
+      }
+
+      .Heading {
+        font-size: 44px;
+        font-weight: 700;
+      }
+
+      .desc-holder {
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+@media (max-width: 850px) {
+
+  /*******************************/
+  /* Pujo Section */
+  /*******************************/
+
+  #Pujo {
+    .pujo-holder {
+      .invitations {
+        -ms-grid-columns: 300px 48px 300px;
+        grid-template-columns: repeat(2, 300px);
+        gap: 48px;
+
+        .invitation {
+          width: 100%;
+          height: 450px;
+        }
+      }
+
+    }
+  }
+
+
+  /*******************************/
+  /* Gallery Section */
+  /*******************************/
+
+  #Gallery {
+    padding: 100px 48px 0 48px;
+
+    .image-holder {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  /*******************************/
+  /* Reach Us Section */
+  /*******************************/
+
+  #Reach-Us {
+    .reachus-Holder {
+      height: 700px;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+
+      .left {
+        padding: 48px;
+
+        .links {
+          -webkit-box-orient: horizontal;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+          flex-direction: row;
+          row-gap: 24px;
+          -webkit-column-gap: 32px;
+          -moz-column-gap: 32px;
+          column-gap: 32px;
+          -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+
+
+          .link {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            gap: 12px;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+
+            &:not(.address) {
+              & p {
+                display: none;
+              }
+            }
+
+            .socialmediaIcons {
+              width: 30px;
+              height: 30px;
+            }
+          }
+        }
+      }
+
+      .right {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+
+  }
+}
+
+@media (max-width: 700px) {
+
+  /*******************************/
+  /* About Section */
+  /*******************************/
+
+  #Aboutus {
+    .aboutus-holder {
+      .subHeading-Holder {
+        .subHeading {
+          font-size: 14px;
+        }
+      }
+    }
+
+  }
+
+  /*******************************/
+  /* Pujo Section */
+  /*******************************/
+
+  #Pujo {
+    .pujo-holder {
+      .container {
+        -webkit-perspective: 1000px;
+        perspective: 1000px;
+
+        .invitations {
+          -ms-grid-columns: none;
+          grid-template-columns: none;
+          -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+          -webkit-transition: rotate var(--transition-5);
+          -o-transition: rotate var(--transition-5);
+          transition: rotate var(--transition-5);
+
+          &:hover {
+            rotate: y -180deg;
+          }
+
+          .invitation {
+            width: 400px;
+            height: 550px;
+
+            &:hover {
+              scale: none;
+            }
+          }
+
+          .back {
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            position: absolute;
+            rotate: y 180deg;
+          }
+        }
+      }
+
+      .note {
+        opacity: 0.6;
+        font-size: 12px;
+        margin-top: 32px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        gap: 8px;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+      }
+    }
+  }
+
+  /*******************************/
+  /* Youtube Section */
+  /*******************************/
+
+  #Youtube {
+    .video-holder .video {
+      height: 240px;
+      width: 460px;
+    }
+  }
+
+}
+
+@media (max-width: 550px) {
+
+  /*******************************/
+  /* Navbar Section */
+  /*******************************/
+
+  nav {
+    padding: 8px 24px;
+
+    .navbar-holder {
+      .left-items {
+        .heading-holder {
+          #Lap-Heading {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+
+  /*******************************/
+  /* About Section */
+  /*******************************/
+
+  #Aboutus {
+    .aboutus-holder {
+      -ms-grid-columns: none;
+      grid-template-columns: none;
+      -ms-grid-rows: 350px 32px 1fr;
+      grid-template-rows: 350px 1fr;
+      gap: 32px;
+
+      .image-holder {
+
+        .logo {
+
+          & img {
+            width: inherit;
+            height: 100%;
+          }
+        }
+      }
+
+      .subHeading-Holder {
+        .line {
+          margin-right: 12px;
+          width: 30px;
+        }
+      }
+    }
+  }
+
+  /*******************************/
+  /* Pujo Section */
+  /*******************************/
+
+  #Pujo {
+    .pujo-holder {
+      .container {
+        .invitations {
+          .invitation {
+            width: 300px;
+            height: 450px;
+          }
+        }
+      }
+    }
+  }
+
+  /*******************************/
+  /* Gallery Section */
+  /*******************************/
+
+  #Gallery {
+    padding: 100px 32px 0 32px;
+
+    .image-holder {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  /*******************************/
+  /* Youtube Section */
+  /*******************************/
+
+  #Youtube {
+    padding: 100px 32px 0 32px;
+
+    .video-holder .video {
+      height: 250px;
+    }
+  }
+
+  /*******************************/
+  /* Reach Us Section */
+  /*******************************/
+
+  #Reach-Us {
+    .reachus-Holder {
+      .left {
+        padding: 32px;
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+
+  /*******************************/
+  /* Navbar Section */
+  /*******************************/
+
+  nav {
+    padding: 8px 24px;
+
+    .navbar-holder {
+      .left-items {
+        .heading-holder {
+          #Lap-Heading {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+
+  /*******************************/
+  /* About Section */
+  /*******************************/
+
+  #Aboutus {
+    padding: 100px 32px 0 32px;
+
+    .aboutus-holder {
+      -ms-grid-columns: none;
+      grid-template-columns: none;
+      -ms-grid-rows: 300px 32px 1fr;
+      grid-template-rows: 300px 1fr;
+      gap: 32px;
+
+      .Heading {
+        font-size: 36px;
+      }
+
+      .subHeading-Holder {
+        .line {
+          margin-right: 12px;
+          width: 30px;
+        }
+
+        .subHeading {
+          font-size: 12px;
+        }
+      }
+
+      .desc-holder {
+        font-size: 12px;
+      }
+    }
+  }
+
+  /*******************************/
+  /* Pujo Section */
+  /*******************************/
+
+  #Pujo {
+    .pujo-holder {
+      .heading-holder {
+        .heading {
+          font-size: 36px;
+        }
+      }
+    }
+  }
+
+
+  /*******************************/
+  /* Gallery Section */
+  /*******************************/
+
+  #Gallery {
+    .heading-holder {
+      .heading {
+        font-size: 36px;
+      }
+    }
+
+    .image-holder {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+
+  /*******************************/
+  /* Youtube Section */
+  /*******************************/
+
+  #Youtube {
+    .heading {
+      font-size: 36px;
+    }
+
+    .video-holder .video {
+      height: 250px;
+    }
+  }
+
+  /*******************************/
+  /* Reach Us Section */
+  /*******************************/
+
+  #Reach-Us {
+    padding: 150px 32px 48px 32px;
+
+    .reachus-Holder {
+
+      .left {
+        padding: 32px;
+
+        .links {
+          gap: 24px;
+
+          .link {
+            .socialmediaIcons {
+              width: 25px;
+              height: 25px;
+            }
+
+            & p {
+              font-size: 12px;
+            }
+          }
+        }
+      }
+
+      .right {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+
+  }
+}
+
+@media (max-width: 360px) {
+
+  /*******************************/
+  /* Navbar Section */
+  /*******************************/
+
+  nav {
+    padding: 8px 24px;
+
+    .navbar-holder {
+      .left-items {
+        .heading-holder {
+          #Lap-Heading {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+
+  /*******************************/
+  /* About Section */
+  /*******************************/
+
+  #Aboutus {
+    padding: 100px 16px 0 16px;
+
+    .aboutus-holder {
+      -ms-grid-columns: none;
+      grid-template-columns: none;
+      -ms-grid-rows: 250px 32px 1fr;
+      grid-template-rows: 250px 1fr;
+      gap: 32px;
+
+      .subHeading-Holder {
+        .line {
+          width: 20px;
+        }
+
+        .subHeading {
+          font-size: 10px;
+        }
+      }
+    }
+  }
+
+  /*******************************/
+  /* Pujo Section */
+  /*******************************/
+
+  #Pujo {
+    .pujo-holder {
+      .container {
+        .invitations {
+          .invitation {
+            width: 220px;
+            height: 350px;
+          }
+        }
+      }
+    }
+  }
+
+  /*******************************/
+  /* Gallery Section */
+  /*******************************/
+
+  #Gallery {
+    padding: 100px 16px 0 16px;
+  }
+
+  /*******************************/
+  /* Youtube Section */
+  /*******************************/
+
+  #Youtube {
+    padding: 100px 16px 0 16px;
+
+    .video-holder .video {
+      height: 200px;
+    }
+  }
+
+  /*******************************/
+  /* Reach Us Section */
+  /*******************************/
+
+  #Reach-Us {
+    padding: 150px 16px;
+
+    .reachus-Holder {
+      .left {
+        padding: 32px;
+
+        .headings {
+          .subHeading-Holder {
+            .line {
+              width: 25px;
+            }
+
+            .subHeading {
+              opacity: 0.6;
+              font-size: 12px;
+
+              .followUs {
+                color: red;
+              }
+            }
+          }
+        }
+
+        .links {
+          .link {
+            .socialmediaIcons {
+              width: 20px;
+              height: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
