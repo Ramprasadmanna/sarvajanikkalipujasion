@@ -394,6 +394,14 @@
 
   #Pujo {
     .pujo-holder {
+      input {
+        display: none;
+      }
+
+      #check:checked+label .invitations {
+        rotate: y -180deg;
+      }
+
       .container {
         -webkit-perspective: 1000px;
         perspective: 1000px;
@@ -407,9 +415,9 @@
           -o-transition: rotate var(--transition-5);
           transition: rotate var(--transition-5);
 
-          &:hover {
+          /* &:hover {
             rotate: y -180deg;
-          }
+          } */
 
           .invitation {
             width: 400px;
