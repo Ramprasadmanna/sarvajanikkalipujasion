@@ -298,6 +298,10 @@ nav {
     -ms-flex-direction: column;
     flex-direction: column;
 
+    input {
+      display: none;
+    }
+
     .heading-holder {
       position: relative;
 
