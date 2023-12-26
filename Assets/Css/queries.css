@@ -9,7 +9,6 @@
   }
 }
 
-
 @media (max-width: 1200px) {
 
   /*******************************/
@@ -80,7 +79,6 @@
 
   }
 }
-
 
 @media (max-width: 1050px) {
 
@@ -394,13 +392,10 @@
 
   #Pujo {
     .pujo-holder {
-      input {
-        display: none;
-      }
 
-      #check:checked+label .invitations {
+      /* #check:checked+label .invitations {
         rotate: y -180deg;
-      }
+      } */
 
       .container {
         -webkit-perspective: 1000px;
@@ -411,9 +406,9 @@
           grid-template-columns: none;
           -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
-          -webkit-transition: rotate var(--transition-5);
-          -o-transition: rotate var(--transition-5);
-          transition: rotate var(--transition-5);
+          /* -webkit-transition: rotate var(--transition-5); */
+          /* -o-transition: rotate var(--transition-5); */
+          /* transition: rotate var(--transition-5); */
 
           /* &:hover {
             rotate: y -180deg;

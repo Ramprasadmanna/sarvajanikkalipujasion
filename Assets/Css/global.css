@@ -1,4 +1,45 @@
 /* ********************* */
+/*  Root Css Properties */
+/* ********************* */
+
+:root {
+  /* ----------- Colors ----------- */
+
+  --black: #252525;
+  --white: #ffff;
+
+  --grey-bg: #F9F9F9;
+  --grey-line: #DCDCDC;
+  --grey-text: #898989;
+  --red-dark: #FF0000;
+  --red-light: #FBDDDD;
+  --green-light: #B2F2BB;
+  --green-dark: #37B24D;
+
+  --red: rgb(241, 67, 81);
+  --red-lineargradiant: linear-gradient(155deg, rgba(241, 67, 81, 1) 0%, rgba(154, 33, 89, 1) 98%);
+  --logo-dropshadow: rgba(0, 0, 0, 0.333) 0px 0px 12px;
+
+
+  /* ---------- Font Weight ---------- */
+
+  --regular: 400;
+  --medium: 500;
+  --semibold: 600;
+  --bold: 700;
+
+  /* ------------- Shadows -------------*/
+
+  --navbar-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
+  --dashboard-tiles-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
+  --form-overflow-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+  /*  ------------- Transition  --------------*/
+  --transition-3: 0.3s ease;
+  --transition-5: 0.5s ease;
+}
+
+/* ********************* */
 /* ---- General Css ---- */
 /* ********************* */
 
@@ -60,42 +101,15 @@ a {
 }
 
 /* ********************* */
-/*  Root Css Properties */
+/* -- Loading Animation -- */
 /* ********************* */
 
-:root {
-  /* ----------- Colors ----------- */
+@keyframes loading {
+  0% {
+    rotate: 0deg;
+  }
 
-  --black: #252525;
-  --white: #ffff;
-
-  --grey-bg: #F9F9F9;
-  --grey-line: #DCDCDC;
-  --grey-text: #898989;
-  --red-dark: #FF0000;
-  --red-light: #FBDDDD;
-  --green-light: #B2F2BB;
-  --green-dark: #37B24D;
-
-  --red: rgb(241, 67, 81);
-  --red-lineargradiant: linear-gradient(155deg, rgba(241, 67, 81, 1) 0%, rgba(154, 33, 89, 1) 98%);
-  --logo-dropshadow: rgba(0, 0, 0, 0.333) 0px 0px 12px;
-
-
-  /* ---------- Font Weight ---------- */
-
-  --regular: 400;
-  --medium: 500;
-  --semibold: 600;
-  --bold: 700;
-
-  /* ------------- Shadows -------------*/
-
-  --navbar-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
-  --dashboard-tiles-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
-  --form-overflow-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-
-  /*  ------------- Transition  --------------*/
-  --transition-3: 0.3s ease;
-  --transition-5: 0.5s ease;
+  100% {
+    rotate: 360deg;
+  }
 }
