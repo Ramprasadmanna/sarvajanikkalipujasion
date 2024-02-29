@@ -107,6 +107,25 @@ checkBox.addEventListener('change', () => {
   }
 })
 
+// Handling Download Events
+document.querySelector(".download").addEventListener("click", (e) => {
+  // List of file URLs to download
+  var fileUrls = [
+    'Assets/Images/invitationFront.png',
+    'Assets/Images/invitationBack.png'
+  ];
+
+  // Create anchor tag for each file and trigger download
+  fileUrls.forEach(function (url) {
+    var link = document.createElement('a');
+    link.href = url;
+    link.download = url // Extract filename from URL
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  });
+})
+
 // Copyright Date Method
 const date = new Date();
 document.getElementById("Date").innerText = date.getFullYear();

@@ -377,6 +377,25 @@ nav {
       }
     }
 
+    .download,
+    .note {
+      border: 1px solid;
+      background: var(--red-lineargradiant);
+      color: var(--white);
+      padding: 4px 8px;
+      border-radius: 5px;
+      font-size: 12px;
+      margin-top: 32px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      gap: 8px;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      cursor: pointer;
+    }
+
     .note {
       display: none;
     }

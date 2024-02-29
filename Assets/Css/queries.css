@@ -434,15 +434,13 @@
 
       .note {
         opacity: 0.6;
-        font-size: 12px;
-        margin-top: 32px;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        gap: 8px;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
+        background: none;
+        color: var(--black);
+        border: none;
+        padding: none;
       }
     }
   }
