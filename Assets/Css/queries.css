@@ -445,16 +445,6 @@
     }
   }
 
-  /*******************************/
-  /* Youtube Section */
-  /*******************************/
-
-  #Youtube {
-    .video-holder .video {
-      height: 240px;
-      width: 460px;
-    }
-  }
 
 }
 
@@ -546,9 +536,6 @@
   #Youtube {
     padding: 100px 32px 0 32px;
 
-    .video-holder .video {
-      height: 250px;
-    }
   }
 
   /*******************************/
@@ -655,12 +642,16 @@
   /*******************************/
 
   #Youtube {
+    padding: 100px 16px 0 16px;
+
     .heading {
       font-size: 36px;
     }
 
-    .video-holder .video {
-      height: 250px;
+    .video-holder {
+      .video {
+        width: 100%;
+      }
     }
   }
 

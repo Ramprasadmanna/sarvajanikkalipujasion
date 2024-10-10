@@ -457,8 +457,7 @@ nav {
       margin-bottom: 50px;
 
       & span {
-        /* color: rgb(241, 67, 81); */
-        color: #10a37f;
+        color: rgb(241, 67, 81);
 
       }
     }
@@ -507,6 +506,7 @@ nav {
         transition: scale 1s ease;
         cursor: pointer;
         aspect-ratio: 4 / 6;
+        object-fit: cover;
 
         &:hover {
           scale: 1.1;
@@ -559,6 +559,7 @@ nav {
 /*******************************/
 
 #Youtube {
+  padding: 0 16px;
   padding-top: 100px;
   max-width: 1200px;
   margin: 0 auto;
@@ -587,8 +588,10 @@ nav {
     align-items: center;
 
     .video {
-      width: 560px;
-      height: 315px;
+      /* width: 560px;
+      height: 315px; */
+      width: 80%;
+      aspect-ratio: 16 / 9;
     }
   }
 
