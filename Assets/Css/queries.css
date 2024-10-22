@@ -219,7 +219,8 @@
           height: 100%;
           width: 250px;
           padding: 48px;
-          background: var(--red-lineargradiant);
+          background: url(../Images/navrotate.png) no-repeat top left;
+          background-size: cover;
           -webkit-box-orient: vertical;
           -webkit-box-direction: normal;
           -ms-flex-direction: column;
@@ -288,7 +289,7 @@
 
         .invitation {
           width: 100%;
-          height: 450px;
+          /* height: 450px; */
         }
       }
 
@@ -416,7 +417,7 @@
 
           .invitation {
             width: 400px;
-            height: 550px;
+            /* height: 550px; */
 
             &:hover {
               scale: none;
@@ -510,7 +511,7 @@
         .invitations {
           .invitation {
             width: 300px;
-            height: 450px;
+            /* height: 450px; */
           }
         }
       }
@@ -749,7 +750,7 @@
         .invitations {
           .invitation {
             width: 220px;
-            height: 350px;
+            /* height: 350px; */
           }
         }
       }

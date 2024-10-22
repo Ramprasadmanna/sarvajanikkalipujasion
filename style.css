@@ -51,11 +51,12 @@ nav {
   top: 0;
   -webkit-box-shadow: var(--navbar-shadow);
   box-shadow: var(--navbar-shadow);
-  background: var(--red-lineargradiant);
-
+  /* background: var(--red-lineargradiant); */
+  background: url(./Assets/Images/Nav.png) no-repeat top center;
+  background-size: cover;
   height: 70px;
   width: 100%;
-  padding: 8px 100px;
+  padding: 8px 150px;
 
   .navbar-holder {
     width: 100%;
@@ -172,14 +173,7 @@ nav {
 #Home {
   width: 100vw;
   height: 100vh;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(0 0 0/0)), to(rgb(0 0 0/ 0.3))), url(Assets/Images/Cover\ Image\ 2.jpg);
-  background-image: -o-linear-gradient(top, rgb(0 0 0/0), rgb(0 0 0/ 0.3)), url(Assets/Images/Cover\ Image\ 2.jpg);
-  background-image: linear-gradient(to bottom, rgb(0 0 0/0), rgb(0 0 0/ 0.3)), url(Assets/Images/Cover\ Image\ 2.jpg);
-  -o-object-fit: contain;
-  object-fit: contain;
-  -o-object-position: center;
-  object-position: center;
-  background-position: center;
+  background: linear-gradient(to bottom, rgb(0 0 0/0), rgb(0 0 0/ 0.3)), url(Assets/Images/Cover\ Image\ 2-min.jpg) no-repeat center;
   background-size: cover;
   color: var(--white);
 }
@@ -351,9 +345,7 @@ nav {
     }
 
     .invitations {
-      display: -ms-grid;
       display: grid;
-      -ms-grid-columns: 350px 64px 350px;
       grid-template-columns: repeat(2, 350px);
       gap: 64px;
       -webkit-box-pack: center;
@@ -361,15 +353,18 @@ nav {
       justify-content: center;
 
       .invitation {
-        border-radius: 5px;
-        width: 350px;
-        height: 500px;
         -webkit-box-shadow: rgb(241, 67, 81, 0.5) 0px 7px 29px 0px;
         box-shadow: rgb(241, 67, 81, 0.5) 0px 7px 29px 0px;
         cursor: pointer;
         -webkit-transition: scale var(--transition-3);
         -o-transition: scale var(--transition-3);
         transition: scale var(--transition-3);
+        border-radius: 6px;
+        overflow: hidden;
+
+        img {
+          object-fit: cover;
+        }
 
         &:hover {
           scale: 1.1;
@@ -486,8 +481,7 @@ nav {
       width: -webkit-fit-content;
       width: -moz-fit-content;
       width: fit-content;
-      border-radius: 10px;
-      border-radius: 5px;
+      border-radius: 6px;
 
       .tint {
         position: absolute;
@@ -590,6 +584,8 @@ nav {
     .video {
       /* width: 560px;
       height: 315px; */
+      border-radius: 6px;
+      overflow: hidden;
       width: 80%;
       aspect-ratio: 16 / 9;
     }
@@ -707,8 +703,8 @@ nav {
 #Footer {
   text-align: center;
   padding: 8px 16px;
-  background: -o-linear-gradient(295deg, rgba(241, 67, 81, 1) 0%, rgba(154, 33, 89, 1) 98%);
-  background: linear-gradient(155deg, rgba(241, 67, 81, 1) 0%, rgba(154, 33, 89, 1) 98%);
+  background: url(./Assets/Images/Nav.png) no-repeat center;
+  background-size: cover;
   color: white;
   font-weight: 300;
   font-size: 12px;
