@@ -173,7 +173,7 @@ nav {
 #Home {
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(to bottom, rgb(0 0 0/0), rgb(0 0 0/ 0.3)), url(Assets/Images/Cover\ Image\ 2-min.jpg) no-repeat center;
+  background: linear-gradient(to bottom, rgb(0 0 0/0), rgb(0 0 0/ 0.3)), url(Assets/Images/CoverImage-min.webp) no-repeat center;
   background-size: cover;
   color: var(--white);
 }
