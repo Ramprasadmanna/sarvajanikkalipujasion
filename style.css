@@ -225,6 +225,7 @@ nav {
           transform: translate(-50%, -50%);
         }
 
+
         .logoInner {
           -webkit-filter: drop-shadow(var(--logo-dropshadow));
           filter: drop-shadow(var(--logo-dropshadow));
@@ -492,12 +493,13 @@ nav {
         background-image: linear-gradient(rgb(0 0 0/0), rgb(0 0 0/0.5));
         height: 100%;
         width: 100%;
+        /* pointer-events: none; */
       }
 
       & img {
         -webkit-transition: scale 1s ease;
         -o-transition: scale 1s ease;
-        transition: scale 1s ease;
+        transition: scale 0.5s ease;
         cursor: pointer;
         aspect-ratio: 4 / 6;
         object-fit: cover;
